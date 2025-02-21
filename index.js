@@ -10,5 +10,5 @@ if (cislo === 0) {
     vysledek = 'sudé a červené';  
 } else if ((cislo >=10 && cislo <=19) || (cislo >=19 && cislo <=36) && (cislo % 2 !== 0)){
   vysledek = 'liché a černé';
-} 
+};
 document.body.innerHTML += 'Zadané číslo je: ' + vysledek + '.';
